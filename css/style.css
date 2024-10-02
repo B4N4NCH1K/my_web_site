@@ -1,0 +1,108 @@
+h2 {
+    color: black;
+    width: 500px;
+    border: 5px solid gray;
+    font-family: 'Comic Sans MS';
+  }
+  
+h1 {
+    text-align: center; 
+    font-family: 'Comic Sans MS';
+}
+
+.opt1 {
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    color: black;
+    width: 500px; 
+    border: 5px solid gray;
+    text-align: justify;
+    font-family: 'Comic Sans MS';
+  }
+
+body {
+    background-color: #2F4F4F; 
+}
+
+.opt {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    width: 90%;
+    gap: 20px;
+}
+
+.opt_all {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+    max-width: 40%; 
+}
+
+.opt2 {
+    max-width: 70%; 
+    text-align: center;
+    max-width: 40%; 
+}
+
+.opt5 {
+    text-align: center; 
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    font-size: 22px;
+}
+
+.bebs {
+    background-image: url("image/bebs_clown.gif");
+    width: 490px;
+    height: 290px; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.major {
+    background-image: url("image/major-hellsing.gif");
+    width: 490px; 
+    height: 290px; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+
+.logo {
+    background: url('image/1.png') no-repeat;
+    width: 100px;  
+    height: 100px; 
+    background-size: contain;
+    background-repeat: no-repeat;
+ }
+
+#button-2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    background-color: #4CAF50; /* Цвет кнопки */
+    color: white;              /* Цвет текста */
+    padding: 15px 32px;        /* Размеры кнопки */
+    font-size: 16px;           /* Размер шрифта */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#image-new {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#umagik {
+    width: 500px;  /* Ширина изображения */
+    height: auto;  /* Пропорциональная высота */
+}
